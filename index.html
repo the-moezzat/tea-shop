@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Leaf Tea Shop</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="img/logo.png" alt="logo" class="logo" />
+      <ul class="main-navigation nav-list">
+        <li class="nav-item"><a href="#" class="nav-link"> Catalog </a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"> Shipping and payment </a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link"> Reviews </a></li>
+        <li class="nav-item"><a href="#" class="nav-link"> Blog </a></li>
+        <li class="nav-item"><a href="#" class="nav-link"> Contact </a></li>
+      </ul>
+      <ul class="icon-list nav-list">
+        <li class="nav-icon">
+          <i class="ph-magnifying-glass icon search"></i>
+        </li>
+        <li class="nav-icon">
+          <i class="ph-heart-fill icon heart"></i>
+          <p class="notification">9</p>
+        </li>
+        <li class="nav-icon">
+          <i class="ph-shopping-cart-simple icon"></i>
+          <p class="notification">3</p>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="recipe-content">
+      <header class="recipe-header">
+        <h1 class="main-heading">Green Tea "Bi Lo Chun" (Emerald spirals)</h1>
+        <div class="add-fav">
+          <i class="ph-heart heart-icon"></i>
+          <p class="add-text">Add to favorites</p>
+        </div>
+      </header>
+      <div class="recipe-details">
+        <div class="recipe-images">
+          <div class="review">
+            <ul class="star-list">
+              <li class="star"><i class="ph-star-fill star-icon"></i></li>
+              <li class="star"><i class="ph-star-fill star-icon"></i></li>
+              <li class="star"><i class="ph-star-fill star-icon"></i></li>
+              <li class="star"><i class="ph-star-fill star-icon"></i></li>
+              <li class="star"><i class="ph-star-fill star-icon"></i></li>
+            </ul>
+            <p class="review-number">Reviews (<span class="count">28</span>)</p>
+          </div>
+          <div class="image-shown"></div>
+          <div class="gallery">
+            <div class="img image1"></div>
+            <div class="img image2 choosen"></div>
+            <div class="img image3"></div>
+            <div class="img image4"></div>
+          </div>
+        </div>
+        <div class="recipe-invoice">
+          <div class="product-details">
+            <div class="product-taste">
+              <div class="taste">
+                <p class="text">Origin:</p>
+                <span class="describe">Zhejiang province</span>
+              </div>
+              <div class="taste">
+                <p class="text">Impact, effect:</p>
+                <span class="describe">invigorating</span>
+              </div>
+              <div class="taste">
+                <p class="text">Taste:</p>
+                <span class="describe">fruity-floral</span>
+              </div>
+            </div>
+            <div class="details-description">
+              <p class="product-description">
+                The classic and most famous green tea. lt got lts name from the
+                method of rolling the tea leaf. Has a smoky and floral aroma,
+                fruity and spicy notes on the palate
+              </p>
+              <p class="available">Stock <span class="status"> Plenty</span></p>
+            </div>
+            <div class="how">
+              <p class="cook">How to cook?</p>
+              <div class="how-details">
+                <div class="cook-details">
+                  <i class="ph-thermometer"></i>
+                  <p class="describe">85 C&#176;</p>
+                </div>
+
+                <div class="cook-details">
+                  <i class="ph-timer"></i>
+                  <p class="describe">2-3 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="invoice-details">
+            <div class="select-size">
+              <div class="size-details">
+                <div class="box">
+                  <p class="size">50 g</p>
+                  <p class="price-size">$11.75</p>
+                </div>
+                <p class="discount"></p>
+              </div>
+              <div class="size-details">
+                <div class="box selected">
+                  <p class="size">100 g</p>
+                  <p class="price-size">$19.91</p>
+                </div>
+                <p class="discount">-5%</p>
+              </div>
+              <div class="size-details">
+                <div class="box">
+                  <p class="size">250 g</p>
+                  <p class="price-size">$42.10</p>
+                </div>
+                <p class="discount">-10%</p>
+              </div>
+            </div>
+            <div class="total-amount">
+              <p class="title">Total amount:</p>
+              <div class="main-price">
+                <p class="price">$19.91</p>
+                <p class="last-price">$23.50</p>
+              </div>
+              <div class="amount">
+                <p class="fake-button">Buy in 1 click</p>
+                <div class="amount-number">
+                  <span class="decrease"><i class="ph-caret-left"></i></span>
+                  <p class="number">1</p>
+                  <span class="increase"><i class="ph-caret-right"></i></span>
+                </div>
+              </div>
+              <div class="add-cart">Add to cart</div>
+            </div>
+            <div class="total-price">
+              <div class="delivery-tax">
+                <p class="text">Delivery:</p>
+                <p class="date">until March 29,</p>
+              </div>
+              <p class="tax-amount">from $9.90</p>
+              <div class="delivery-tax">
+                <p class="text">Pickup:</p>
+                <p class="date">in 30 minutes,</p>
+              </div>
+              <p class="tax-amount last">free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
